@@ -11,6 +11,7 @@ const Header = () => {
       <div className="header-right">
         <div className="icon-tray">
           <i className="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-gear"></i>
         </div>
         <Avatar />
       </div>

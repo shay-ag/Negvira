@@ -1,0 +1,30 @@
+.logo-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-left: 0.4rem;
+  gap: 12px;
+}
+
+.logo {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 18px;
+}
+
+/* Hide the h2 element for smaller screens */
+@media (max-width: 768px) {
+
+  .logo-bar{
+    padding-top: 1rem;
+    padding-left: 0rem;
+  }
+
+  .logo-bar h2 {
+    display: none;
+  }
+}
+  
